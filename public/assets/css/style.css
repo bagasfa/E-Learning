@@ -352,6 +352,9 @@ button:focus {
     background-size: auto 100%;
     width: 90%;
     margin: 0 5%;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background: ;
 }
 
 .top-header .navbar .navbar-collapse ul li a {
@@ -483,7 +486,7 @@ a.navbar-brand img {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	background: #111;
+	filter: invert(100%);
 }
 
 .search-txt {
@@ -499,6 +502,7 @@ a.navbar-brand img {
 	background: #fff;
 	padding: 0;
 	font-weight: 300;
+	border-bottom: solid 1px black;
 }
 
 .theme_color {
@@ -1934,6 +1938,12 @@ h3.small_heading {
     border-radius: 0;
     top: 40%;
     left: -80px;
+    transition: 0.4s;
+}
+
+.carousel a.carousel-control-prev:hover{
+    border-radius: 10px;
+	opacity: 0.5;
 }
 
 .carousel a.carousel-control-next {
@@ -1944,6 +1954,12 @@ h3.small_heading {
 	border-radius: 0;
 	top: 40%;
 	right: -80px;
+	transition: 0.4s;
+}
+
+.carousel a.carousel-control-next:hover{
+    border-radius: 10px;
+	opacity: 0.5;
 }
 
 #demo {

@@ -134,17 +134,6 @@
         
         </div>
     </footer>
-    <!-- End Footer -->
-
-    <div class="footer_bottom">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <p class="crp">© Copyrights 2019 design by html.design</p>
-                </div>
-            </div>
-        </div>
-    </div>
 
     <a href="#" id="scroll-to-top" class="hvr-radial-out"><i class="fa fa-angle-up"></i></a>
 
@@ -156,7 +145,6 @@
     <script src="{{asset('assets/js/jquery.magnific-popup.min.js')}}"></script>
     <script src="{{asset('assets/js/jquery.pogo-slider.min.js')}}"></script>
     <script src="{{asset('assets/js/slider-index.js')}}"></script>
-    <script src="{{asset('assets/js/smoothscroll.js')}}"></script>
     <script src="{{asset('assets/js/form-validator.min.js')}}"></script>
     <script src="{{asset('assets/js/contact-form-script.js')}}"></script>
     <script src="{{asset('assets/js/isotope.min.js')}}"></script>

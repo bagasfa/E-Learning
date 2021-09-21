@@ -294,11 +294,10 @@ a.navbar-brand img {
      .search-box {
          position: absolute;
          top: 0;
-         right: 50px;
+         right: 70px;
          height: auto;
          padding: 0;
-         margin-top: 29px;
-         display: none;
+         margin-top: 17px;
     }
      a.navbar-brand {
          left: 0;
@@ -357,37 +356,37 @@ a.navbar-brand img {
     width: 280px;
     height: 280px;
 
-}
-.team_member_img.text_align_center {
+    }
+    .team_member_img.text_align_center {
 
-    width: 280px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: center;
-    float: none;
+        width: 280px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        float: none;
 
-}
+    }
 
-.bottom_menu {
+    .bottom_menu {
 
-    float: right;
-    width: 100%;
-    justify-content: center;
-    display: flex;
+        float: right;
+        width: 100%;
+        justify-content: center;
+        display: flex;
 
-}
+    }
 
-.carousel a.carousel-control-prev {
-    left: 20px;
-}
+    .carousel a.carousel-control-prev {
+        left: 20px;
+    }
 
-.carousel a.carousel-control-next {
-    right: 20px;
-}
+    .carousel a.carousel-control-next {
+        right: 20px;
+    }
 
-.footer_blog {
-    margin-top: 25px;
-}
+    .footer_blog {
+        margin-top: 25px;
+    }
 	.team_member_img .social_icon_team {
 
     position: absolute;
@@ -420,3 +419,20 @@ a.navbar-brand img {
 
 }
  
+ /*Galaxy Fold User*/
+@media (max-width: 280px) {
+    .search-box {
+         position: absolute;
+         top: 0;
+         /*right: 15px;*/
+         height: auto;
+         padding: 0;
+         margin-top: 65px;
+    }
+
+    .search-box:hover, .search-box:active .search-txt {
+        width: 150px;
+        display: inline-flex;
+        padding: 0 10px;
+    }
+}
